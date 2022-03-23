@@ -1,0 +1,37 @@
+# Competitive Programming notes (Python3)
+
+# Preliminary notes (Beginner) 
+
+
+
+# When they ask for test cases in beginning 
+x = int(input(" "))
+
+for i in range(x):
+    (a,b) = map(int,input().split()) # for side by side inputs/you can even use list without brackets like 
+     a,b = list(map(int,input().split())) # works for more than 2 inputs too
+
+
+
+# Floor Function
+x//m # implies x floor m OR
+
+import math
+
+math.floor(a) # implies flooring of a (or any other statement)
+
+
+
+# Counting the number of times a function is called
+count = 0
+while e > 0:
+    e = e//k # example (// is floor function)
+    count += 1
+print(count)
+
+# To print the maximum of two numbers 
+print(max(a,b))
+
+
+
+
